@@ -1,0 +1,37 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aaa"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.androidstudio2.TextViewActivity">
+
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:text="@string/first_activity_text_and_edit"
+         android:autoLink="email"
+         android:textSize="24dp"/>
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="带图片的TextView"
+           android:textSize="24dp"
+           android:drawableTop="@drawable/cat"
+           android:id="@+id/tvPic"
+           />
+
+         <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="多行文字，在很久很久以前，这里有个帅哥叫志泳"
+            android:textSize="24dp"
+           />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="24dp"
+            android:singleLine="true"
+            android:text="单行文字，在很久很久以前，这里有个帅哥叫志泳,他长得非常非常帅，简直帅到爆"/>
+</LinearLayout>

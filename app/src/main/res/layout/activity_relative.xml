@@ -1,0 +1,34 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/aaa"
+    tools:context="com.example.administrator.androidstudio2.RelativeActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="发现有新版本的Widget，要安装吗？"
+        android:textSize="24dp"
+        android:textColorHint="#000000"
+        android:id="@+id/tvNews"
+        />
+       <Button
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="确定"
+           android:textSize="24dp"
+           android:layout_below="@+id/tvNews"
+           android:layout_toLeftOf="@+id/btv2"
+           android:id="@+id/btv1"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btv2"
+        android:text="取消"
+        android:textSize="24dp"
+        android:layout_alignRight="@+id/tvNews"
+        android:layout_below="@+id/tvNews"/>
+</RelativeLayout>

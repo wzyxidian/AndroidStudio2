@@ -1,0 +1,52 @@
+<resources>
+    <string name="app_name">AndroidStudio2</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_news">NewsActivity</string>
+    <string name="title_activity_detail">DetailActivity</string>
+    <string name="title_activity_rabbit">RabbitActivity</string>
+    <string name="title_activity_table">TableActivity</string>
+    <string name="title_activity_frame">FrameActivity</string>
+    <string name="title_activity_relative">RelativeActivity</string>
+    <string name="title_activity_text_and_edit">TextAndEditActivity</string>
+    <string name="first_activity_text_and_edit">aaaa@qq.com</string>
+    <string name="title_activity_index">IndexActivity</string>
+    <string name="title_activity_edit_view">EditViewActivity</string>
+    <string name="title_activity_button">ButtonActivity</string>
+    <string name="title_activity_radio">RadioActivity</string>
+    <string name="title_activity_check_button">CheckButtonActivity</string>
+    <string name="title_activity_image_view">ImageViewActivity</string>
+    <string name="title_activity_spinner">SpinnerActivity</string>
+    <string name="title_activity_list_view">ListViewActivity</string>
+    <string name="title_activity_time_and_count">TimeAndCountActivity</string>
+    <string name="title_activity_image_button">ImageButton</string>
+    <string name="title_activity_example2">Example2</string>
+    <string name="title_activity_example3">Example3</string>
+    <string name="artcle">&#160;&#160;&#160;&#160;&#160;&#160;&#160;温馨提示：本游戏适合各年龄段的玩家，请您合理安排游戏时间，不要沉迷游戏！
+                            当您连续在线2小时后，系统将自动结束游戏。如果同意该条款请勾选”我同意“复选框，方可进入游戏</string>
+    <string name="title_activity_example4">Example4</string>
+    <string name="title_activity_auto_complete_text_view">AutoCompleteTextView</string>
+    <string name="title_activity_progress_bar">ProgressBarActivity</string>
+    <string name="title_activity_seek_bar_and_rating_bar">SeekBarAndRatingBarActivity</string>
+    <string name="title_activity_table_host">TableHostActivity</string>
+    <string name="title_activity_image_switcher">ImageSwitcherActivity</string>
+    <string name="title_activity_grid_view_activity1">GridViewActivity1</string>
+    <string name="title_activity_gallery">GalleryActivity</string>
+    <string name="title_activity_example_activity41">ExampleActivity41</string>
+    <string name="title_activity_example_activity42">ExampleActivity42</string>
+    <string name="title_activity_toast">ToastActivity</string>
+    <string name="title_activity_notification">NotificationActivity</string>
+    <string name="title_activity_content">ContentActivity</string>
+    <string name="title_activity_alert">AlertActivity</string>
+    <string name="title_activity_example_activity43">ExampleActivity43</string>
+    <string name="title_activity_example_activity44">ExampleActivity44</string>
+    <string name="title_activity_example_activity45">ExampleActivity45</string>
+    <string name="title_activity_example_activity46">ExampleActivity46</string>
+    <string name="title_activity_activity5_7">Activity5_7</string>
+    <string name="title_activity_activity_chaper7_4">ActivityChaper7_4</string>
+    <string name="title_activity_activity8_6">Activity8_6</string>
+</resources>

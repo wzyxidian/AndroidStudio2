@@ -1,0 +1,30 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:orientation="horizontal"
+    tools:context="com.example.administrator.androidstudio2.ExampleActivity45">
+
+    <GridView
+        android:layout_weight="1"
+        android:layout_width="640px"
+        android:layout_height="match_parent"
+        android:horizontalSpacing="3px"
+        android:verticalSpacing="3px"
+        android:layout_marginTop="10px"
+        android:id="@+id/gvExample45"
+        android:numColumns="3"></GridView>
+
+    <ImageSwitcher
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="20px"
+        android:id="@+id/isExample45"></ImageSwitcher>
+
+
+</LinearLayout>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.administrator.androidstudio2" >
+
+    <uses-permission android:name="android.permission.FLASHLIGHT" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name=".IndexActivity"
+            android:label="@string/title_activity_index" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".fragmentDemo.NewsActivity"
+            android:label="@string/title_activity_news" >
+        </activity>
+        <activity
+            android:name=".fragmentDemo.DetailActivity"
+            android:label="@string/title_activity_detail" >
+        </activity>
+        <activity
+            android:name=".RabbitActivity"
+            android:label="@string/title_activity_rabbit" >
+        </activity>
+        <activity
+            android:name=".TableActivity"
+            android:label="@string/title_activity_table" >
+        </activity>
+        <activity
+            android:name=".FrameActivity"
+            android:label="@string/title_activity_frame" >
+        </activity>
+        <activity
+            android:name=".RelativeActivity"
+            android:label="@string/title_activity_relative" >
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".TextViewActivity"
+            android:label="@string/title_activity_text_and_edit" >
+        </activity>
+        <activity
+            android:name=".EditViewActivity"
+            android:label="@string/title_activity_edit_view" >
+        </activity>
+        <activity
+            android:name=".ButtonActivity"
+            android:label="@string/title_activity_button" >
+        </activity>
+        <activity
+            android:name=".RadioActivity"
+            android:label="@string/title_activity_radio" >
+        </activity>
+        <activity
+            android:name=".CheckButtonActivity"
+            android:label="@string/title_activity_check_button" >
+        </activity>
+        <activity
+            android:name=".ImageViewActivity"
+            android:label="@string/title_activity_image_view" >
+        </activity>
+        <activity
+            android:name=".SpinnerActivity"
+            android:label="@string/title_activity_spinner" >
+        </activity>
+        <activity
+            android:name=".ListViewActivity"
+            android:label="@string/title_activity_list_view" >
+        </activity>
+        <activity
+            android:name=".TimeAndCountActivity"
+            android:label="@string/title_activity_time_and_count" >
+        </activity>
+        <activity
+            android:name=".ImageButton1"
+            android:label="@string/title_activity_image_button" >
+        </activity>
+        <activity
+            android:name=".Example2"
+            android:label="@string/title_activity_example2" >
+        </activity>
+        <activity
+            android:name=".Example3"
+            android:label="@string/title_activity_example3" >
+        </activity>
+        <activity
+            android:name=".Example4"
+            android:label="@string/title_activity_example4" >
+        </activity>
+        <activity
+            android:name=".AutoCompleteTextViewActivity"
+            android:label="@string/title_activity_auto_complete_text_view" >
+        </activity>
+        <activity
+            android:name=".ProgressBarActivity"
+            android:label="@string/title_activity_progress_bar" >
+        </activity>
+        <activity
+            android:name=".SeekBarAndRatingBarActivity"
+            android:label="@string/title_activity_seek_bar_and_rating_bar" >
+        </activity>
+        <activity
+            android:name=".TableHostActivity"
+            android:label="@string/title_activity_table_host" >
+        </activity>
+        <activity
+            android:name=".ImageSwitcherActivity"
+            android:label="@string/title_activity_image_switcher" >
+        </activity>
+        <activity
+            android:name=".GridViewActivity1"
+            android:label="@string/title_activity_grid_view_activity1" >
+        </activity>
+        <activity
+            android:name=".GalleryActivity"
+            android:label="@string/title_activity_gallery" >
+        </activity>
+        <activity
+            android:name=".ExampleActivity41"
+            android:label="@string/title_activity_example_activity41" >
+        </activity>
+        <activity
+            android:name=".ExampleActivity42"
+            android:label="@string/title_activity_example_activity42" >
+        </activity>
+        <activity
+            android:name=".ToastActivity"
+            android:label="@string/title_activity_toast" >
+        </activity>
+        <activity
+            android:name=".NotificationActivity"
+            android:label="@string/title_activity_notification" >
+        </activity>
+        <activity
+            android:name=".ContentActivity"
+            android:label="@string/title_activity_content" >
+        </activity>
+        <activity
+            android:name=".AlertActivity"
+            android:label="@string/title_activity_alert" >
+        </activity>
+        <activity
+            android:name=".ExampleActivity43"
+            android:label="@string/title_activity_example_activity43" >
+        </activity>
+        <activity
+            android:name=".ExampleActivity44"
+            android:label="@string/title_activity_example_activity44" >
+        </activity>
+        <activity
+            android:name=".ExampleActivity45"
+            android:label="@string/title_activity_example_activity45" >
+        </activity>
+        <activity
+            android:name=".ExampleActivity46"
+            android:label="@string/title_activity_example_activity46" >
+        </activity>
+        <activity
+            android:name=".Activity5_7"
+            android:label="@string/title_activity_activity5_7" >
+        </activity>
+        <activity
+            android:name=".ActivityChaper7_4"
+            android:label="@string/title_activity_activity_chaper7_4" >
+        </activity>
+        <activity
+            android:name=".Activity8_6"
+            android:label="@string/title_activity_activity8_6" >
+        </activity>
+    </application>
+
+</manifest>

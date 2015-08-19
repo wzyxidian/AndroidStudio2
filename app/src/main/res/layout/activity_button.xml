@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.administrator.androidstudio2.ButtonActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btShowText"
+        android:textSize="24dp"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:text="显示文字"/>
+    <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:id="@+id/btShowImage"
+        android:onClick="myClick"
+        android:src="@drawable/cat"/>
+</LinearLayout>
