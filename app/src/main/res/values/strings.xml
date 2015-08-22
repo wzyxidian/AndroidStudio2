@@ -49,4 +49,12 @@
     <string name="title_activity_activity5_7">Activity5_7</string>
     <string name="title_activity_activity_chaper7_4">ActivityChaper7_4</string>
     <string name="title_activity_activity8_6">Activity8_6</string>
+    <string name="title_activity_activity89">Activity89</string>
+    <string name="title_activity_activity8_10">Activity8_10</string>
+    <string name="edittext">Please enter your search keywords</string>
+    <string name="itemTitle1">Copy</string>
+    <string name="itemTitle2">Cut</string>
+    <string name="itemTitle3">Paste</string>
+    <string name="title_activity_activity9_1">Activity9_1</string>
+
 </resources>

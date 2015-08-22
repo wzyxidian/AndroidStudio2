@@ -179,6 +179,19 @@
             android:name=".Activity8_6"
             android:label="@string/title_activity_activity8_6" >
         </activity>
+        <activity
+            android:name=".Activity89"
+            android:label="@string/title_activity_activity89"
+            android:theme="@style/Theme.Translucent" >
+        </activity>
+        <activity
+            android:name=".Activity8_10"
+            android:label="@string/title_activity_activity8_10" >
+        </activity>
+        <activity
+            android:name=".Activity9_1"
+            android:label="@string/title_activity_activity9_1" >
+        </activity>
     </application>
 
 </manifest>

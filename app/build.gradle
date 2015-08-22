@@ -18,7 +18,9 @@ android {
         }
     }
     sourceSets {
-        main { res.srcDirs = ['src/main/res', 'src/main/res/layout-land', 'app/res/layout-land'] }
+        main {
+            res.srcDirs = ['src/main/res', 'src/main/res/layout-land', 'app/res/layout-land', 'src/main/res/valuse_zh_rTW', 'src/main/res/valuse_zh_CW']
+        }
     }
 }
 
