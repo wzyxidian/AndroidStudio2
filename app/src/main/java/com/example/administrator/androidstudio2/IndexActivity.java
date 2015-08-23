@@ -18,6 +18,7 @@ public class IndexActivity extends ActionBarActivity {
     private Button btChaper7,btTitle7_4;
     private Button btMenu8_6;
     private Button btMenu8_9;
+    private Button btMenu9_1,btMenu9_2,btMenu9_3,btMenu9_4,btMenu9_5,btMenu9_6,btMenu9_8;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -62,6 +63,13 @@ public class IndexActivity extends ActionBarActivity {
         btTitle7_4 = (Button) findViewById(R.id.btTitle7_4);
         btMenu8_6 = (Button) findViewById(R.id.btMenu8_6);
         btMenu8_9 = (Button) findViewById(R.id.btMenu8_9);
+        btMenu9_1 = (Button) findViewById(R.id.btMenu9_1);
+        btMenu9_2 = (Button) findViewById(R.id.btMenu9_2);
+        btMenu9_3 = (Button) findViewById(R.id.btMenu9_3);
+        btMenu9_4 = (Button) findViewById(R.id.btMenu9_4);
+        btMenu9_5 = (Button) findViewById(R.id.btMenu9_5);
+        btMenu9_6 = (Button) findViewById(R.id.btMenu9_6);
+        btMenu9_8 = (Button) findViewById(R.id.btMenu9_8);
     }
 
     private void buttonClickListener() {
@@ -97,6 +105,13 @@ public class IndexActivity extends ActionBarActivity {
         btTitle7_4.setOnClickListener(buttonClickListener);
         btMenu8_6.setOnClickListener(buttonClickListener);
         btMenu8_9.setOnClickListener(buttonClickListener);
+        btMenu9_1.setOnClickListener(buttonClickListener);
+        btMenu9_2.setOnClickListener(buttonClickListener);
+        btMenu9_3.setOnClickListener(buttonClickListener);
+        btMenu9_4.setOnClickListener(buttonClickListener);
+        btMenu9_5.setOnClickListener(buttonClickListener);
+        btMenu9_6.setOnClickListener(buttonClickListener);
+        btMenu9_8.setOnClickListener(buttonClickListener);
     }
 
     public class buttonClickListener implements View.OnClickListener{
@@ -231,6 +246,34 @@ public class IndexActivity extends ActionBarActivity {
                    case R.id.btMenu8_9:
                        Intent intent32 = new Intent(IndexActivity.this,Activity89.class);
                        startActivity(intent32);
+                       break;
+                   case R.id.btMenu9_1:
+                       Intent intent33 = new Intent(IndexActivity.this,Activity9_1.class);
+                       startActivity(intent33);
+                       break;
+                   case R.id.btMenu9_2:
+                       Intent intent34 = new Intent(IndexActivity.this,Activity9_2.class);
+                       startActivity(intent34);
+                       break;
+                   case R.id.btMenu9_3:
+                       Intent intent35 = new Intent(IndexActivity.this,Activity9_3.class);
+                       startActivity(intent35);
+                       break;
+                   case R.id.btMenu9_4:
+                       Intent intent36 = new Intent(IndexActivity.this,Activity9_4.class);
+                       startActivity(intent36);
+                       break;
+                   case R.id.btMenu9_5:
+                       Intent intent37 = new Intent(IndexActivity.this,Activity9_5.class);
+                       startActivity(intent37);
+                       break;
+                   case R.id.btMenu9_6:
+                       Intent intent38 = new Intent(IndexActivity.this,Activity9_6.class);
+                       startActivity(intent38);
+                       break;
+                   case R.id.btMenu9_8:
+                       Intent intent39 = new Intent(IndexActivity.this,Activity9_8.class);
+                       startActivity(intent39);
                        break;
                }
         }

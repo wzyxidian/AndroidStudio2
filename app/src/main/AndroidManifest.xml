@@ -192,6 +192,30 @@
             android:name=".Activity9_1"
             android:label="@string/title_activity_activity9_1" >
         </activity>
+        <activity
+            android:name=".Activity9_2"
+            android:label="@string/title_activity_activity9_2" >
+        </activity>
+        <activity
+            android:name=".Activity9_3"
+            android:label="@string/title_activity_activity9_3" >
+        </activity>
+        <activity
+            android:name=".Activity9_4"
+            android:label="@string/title_activity_activity9_4" >
+        </activity>
+        <activity
+            android:name=".Activity9_5"
+            android:label="@string/title_activity_activity9_5" >
+        </activity>
+        <activity
+            android:name=".Activity9_6"
+            android:label="@string/title_activity_activity9_6" >
+        </activity>
+        <activity
+            android:name=".Activity9_8"
+            android:label="@string/title_activity_activity9_8" >
+        </activity>
     </application>
 
 </manifest>

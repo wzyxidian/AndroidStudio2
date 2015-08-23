@@ -1,9 +1,19 @@
 package com.example.administrator.androidstudio2;
 
+import android.content.Context;
+import android.graphics.Canvas;
+import android.graphics.Color;
+import android.graphics.LinearGradient;
+import android.graphics.Paint;
+import android.graphics.RadialGradient;
+import android.graphics.Shader;
+import android.graphics.SweepGradient;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.FrameLayout;
 
 
 public class Activity9_1 extends ActionBarActivity {
@@ -12,27 +22,37 @@ public class Activity9_1 extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_activity9_1);
+        FrameLayout frameLayout = (FrameLayout) findViewById(R.id.frameLayout1);
+        frameLayout.addView(new MyView(this));
+
     }
+    public class MyView extends View {
 
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_activity9_1, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        // Handle action bar item clicks here. The action bar will
-        // automatically handle clicks on the Home/Up button, so long
-        // as you specify a parent activity in AndroidManifest.xml.
-        int id = item.getItemId();
-
-        //noinspection SimplifiableIfStatement
-        if (id == R.id.action_settings) {
-            return true;
+        public MyView(Context context){
+            super(context);
         }
 
-        return super.onOptionsItemSelected(item);
+        @Override
+        protected void onDraw(Canvas canvas) {
+            super.onDraw(canvas);
+            Paint paint = new Paint();
+            //线性渐变
+            Shader shader = new LinearGradient(0,0,50,50, Color.RED,Color.GREEN,Shader.TileMode.MIRROR);
+            paint.setShader(shader);
+            canvas.drawRect(10,70,100,150,paint);
+
+            //径向渐变
+            shader =  new RadialGradient(160,110,50,Color.RED,Color.GREEN,Shader.TileMode.MIRROR);
+            paint.setShader(shader);
+            canvas.drawRect(115,70,205,150,paint);
+
+            //角度渐变
+            shader = new SweepGradient(265,110,new int[]{Color.RED,Color.GREEN,Color.BLUE},null);
+            paint.setShader(shader);
+            canvas.drawRect(220,70,310,150,paint);
+
+            super.onDraw(canvas);
+        }
     }
+
 }

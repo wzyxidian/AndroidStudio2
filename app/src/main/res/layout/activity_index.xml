@@ -301,6 +301,69 @@
          android:textSize="24dp"
          android:textColor="#000000"
          android:id="@+id/btMenu8_9"/>
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_margin="10px"
+         android:text="切换到9_1"
+         android:textSize="24dp"
+         android:textColor="#000000"
+         android:id="@+id/btMenu9_1"/>
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_margin="10px"
+         android:text="切换到9_2"
+         android:textSize="24dp"
+         android:textColor="#000000"
+         android:id="@+id/btMenu9_2"/>
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_margin="10px"
+         android:text="切换到9_3"
+         android:textSize="24dp"
+         android:textColor="#000000"
+         android:id="@+id/btMenu9_3"/>
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_margin="10px"
+         android:text="切换到9_4"
+         android:textSize="24dp"
+         android:textColor="#000000"
+         android:id="@+id/btMenu9_4"/>
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_margin="10px"
+         android:text="切换到9_5"
+         android:textSize="24dp"
+         android:textColor="#000000"
+         android:id="@+id/btMenu9_5"/>
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_margin="10px"
+         android:text="切换到9_6"
+         android:textSize="24dp"
+         android:textColor="#000000"
+         android:id="@+id/btMenu9_6"/>
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_margin="10px"
+         android:text="切换到9_8"
+         android:textSize="24dp"
+         android:textColor="#000000"
+         android:id="@+id/btMenu9_8"/>
      </LinearLayout>
     </ScrollView>
 </LinearLayout>

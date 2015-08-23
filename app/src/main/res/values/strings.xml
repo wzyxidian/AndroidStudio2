@@ -56,5 +56,11 @@
     <string name="itemTitle2">Cut</string>
     <string name="itemTitle3">Paste</string>
     <string name="title_activity_activity9_1">Activity9_1</string>
+    <string name="title_activity_activity9_2">Activity9_2</string>
+    <string name="title_activity_activity9_3">Activity9_3</string>
+    <string name="title_activity_activity9_4">Activity9_4</string>
+    <string name="title_activity_activity9_5">Activity9_5</string>
+    <string name="title_activity_activity9_6">Activity9_6</string>
+    <string name="title_activity_activity9_8">Activity9_8</string>
 
 </resources>
