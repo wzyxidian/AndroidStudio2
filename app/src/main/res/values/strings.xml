@@ -62,5 +62,17 @@
     <string name="title_activity_activity9_5">Activity9_5</string>
     <string name="title_activity_activity9_6">Activity9_6</string>
     <string name="title_activity_activity9_8">Activity9_8</string>
+    <string name="width_1">1像素</string>
+    <string name="width_2">2像素</string>
+    <string name="width_3">3像素</string>
+    <string name="color_red">红色</string>
+    <string name="color_green">绿色</string>
+    <string name="color_blue">蓝色</string>
+    <string name="color">画笔颜色</string>
+    <string name="width">画笔宽度</string>
+    <string name="clear">擦除绘画</string>
+    <string name="save">保存绘画</string>
+
+
 
 </resources>

@@ -2,6 +2,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     tools:context="com.example.administrator.androidstudio2.Activity9_8">
-    <item android:id="@+id/action_settings" android:title="@string/action_settings"
-        android:orderInCategory="100" app:showAsAction="never" />
+    <item android:title="@string/color">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item android:id="@+id/red" android:title="@string/color_red"/>
+                <item android:id="@+id/green" android:title="@string/color_green"/>
+                <item android:id="@+id/blue" android:title="@string/color_blue"/>
+            </group>
+        </menu>
+    </item>
+    <item android:title="@string/width">
+        <menu>
+            <item android:id="@+id/width_1" android:title="@string/width_1"/>
+            <item android:id="@+id/width_2" android:title="@string/width_2"/>
+            <item android:id="@+id/width_3" android:title="@string/width_3"/>
+        </menu>
+    </item>
+    <item android:id="@+id/clear" android:title="@string/clear"/>
+    <item android:id="@+id/save" android:title="@string/save"/>
 </menu>
