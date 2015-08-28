@@ -223,6 +223,10 @@
             android:name=".Activity9_9"
             android:label="@string/title_activity_activity9_9" >
         </activity>
+        <activity
+            android:name=".Activity9_15"
+            android:label="@string/title_activity_activity9_15" >
+        </activity>
     </application>
 
 </manifest>
