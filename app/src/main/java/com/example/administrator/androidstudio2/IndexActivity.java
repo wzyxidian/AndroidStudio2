@@ -20,6 +20,7 @@ public class IndexActivity extends ActionBarActivity {
     private Button btMenu8_9;
     private Button btMenu9_1,btMenu9_2,btMenu9_3,btMenu9_4,btMenu9_5,btMenu9_6,btMenu9_8;
     private Button btMenu9_9,btMenu9_15;
+    private Button btMenu9_16,btMenu9_17,btMenu9_18;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -73,6 +74,9 @@ public class IndexActivity extends ActionBarActivity {
         btMenu9_8 = (Button) findViewById(R.id.btMenu9_8);
         btMenu9_9 = (Button) findViewById(R.id.btMenu9_9);
         btMenu9_15 = (Button) findViewById(R.id.btMenu9_15);
+        btMenu9_16 = (Button) findViewById(R.id.btMenu9_16);
+        btMenu9_17 = (Button) findViewById(R.id.btMenu9_17);
+        btMenu9_18 = (Button) findViewById(R.id.btMenu9_18);
     }
 
     private void buttonClickListener() {
@@ -117,6 +121,9 @@ public class IndexActivity extends ActionBarActivity {
         btMenu9_8.setOnClickListener(buttonClickListener);
         btMenu9_9.setOnClickListener(buttonClickListener);
         btMenu9_15.setOnClickListener(buttonClickListener);
+        btMenu9_16.setOnClickListener(buttonClickListener);
+        btMenu9_17.setOnClickListener(buttonClickListener);
+        btMenu9_18.setOnClickListener(buttonClickListener);
     }
 
     public class buttonClickListener implements View.OnClickListener{
@@ -288,6 +295,20 @@ public class IndexActivity extends ActionBarActivity {
                        Intent intent41 = new Intent(IndexActivity.this,Activity9_15.class);
                        startActivity(intent41);
                        break;
+                   case R.id.btMenu9_16:
+                       Intent intent42 = new Intent(IndexActivity.this,Activity9_16.class);
+                       startActivity(intent42);
+                       break;
+                   case R.id.btMenu9_17:
+                       Intent intent43 = new Intent(IndexActivity.this,Activity9_17.class);
+                       startActivity(intent43);
+                       break;
+                   case R.id.btMenu9_18:
+                       Intent intent44 = new Intent(IndexActivity.this,Activity9_18.class);
+                       startActivity(intent44);
+                       break;
+
+
                }
         }
     }

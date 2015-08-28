@@ -227,6 +227,18 @@
             android:name=".Activity9_15"
             android:label="@string/title_activity_activity9_15" >
         </activity>
+        <activity
+            android:name=".Activity9_16"
+            android:label="@string/title_activity_activity9_16" >
+        </activity>
+        <activity
+            android:name=".Activity9_17"
+            android:label="@string/title_activity_activity9_17" >
+        </activity>
+        <activity
+            android:name=".Activity9_18"
+            android:label="@string/title_activity_activity9_18" >
+        </activity>
     </application>
 
 </manifest>
