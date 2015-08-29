@@ -20,7 +20,7 @@ public class IndexActivity extends ActionBarActivity {
     private Button btMenu8_9;
     private Button btMenu9_1,btMenu9_2,btMenu9_3,btMenu9_4,btMenu9_5,btMenu9_6,btMenu9_8;
     private Button btMenu9_9,btMenu9_15;
-    private Button btMenu9_16,btMenu9_17,btMenu9_18;
+    private Button btMenu9_16,btMenu9_17,btMenu9_18,btMenu9_19;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -77,6 +77,7 @@ public class IndexActivity extends ActionBarActivity {
         btMenu9_16 = (Button) findViewById(R.id.btMenu9_16);
         btMenu9_17 = (Button) findViewById(R.id.btMenu9_17);
         btMenu9_18 = (Button) findViewById(R.id.btMenu9_18);
+        btMenu9_19 = (Button) findViewById(R.id.btMenu9_19);
     }
 
     private void buttonClickListener() {
@@ -124,6 +125,7 @@ public class IndexActivity extends ActionBarActivity {
         btMenu9_16.setOnClickListener(buttonClickListener);
         btMenu9_17.setOnClickListener(buttonClickListener);
         btMenu9_18.setOnClickListener(buttonClickListener);
+        btMenu9_19.setOnClickListener(buttonClickListener);
     }
 
     public class buttonClickListener implements View.OnClickListener{
@@ -306,6 +308,10 @@ public class IndexActivity extends ActionBarActivity {
                    case R.id.btMenu9_18:
                        Intent intent44 = new Intent(IndexActivity.this,Activity9_18.class);
                        startActivity(intent44);
+                       break;
+                   case R.id.btMenu9_19:
+                       Intent intent45 = new Intent(IndexActivity.this,Activity9_19.class);
+                       startActivity(intent45);
                        break;
 
 

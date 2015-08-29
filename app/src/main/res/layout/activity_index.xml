@@ -409,6 +409,15 @@
          android:textSize="24dp"
          android:textColor="#000000"
          android:id="@+id/btMenu9_18"/>
+     <Button
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_gravity="center"
+         android:layout_margin="10px"
+         android:text="切换到9_19"
+         android:textSize="24dp"
+         android:textColor="#000000"
+         android:id="@+id/btMenu9_19"/>
      </LinearLayout>
     </ScrollView>
 </LinearLayout>
