@@ -247,6 +247,10 @@
             android:name="com.example.administrator.multimedia.MediaIndexActivity"
             android:label="@string/title_activity_media_index" >
         </activity>
+        <activity
+            android:name="com.example.administrator.multimedia.Activity10_1"
+            android:label="@string/title_activity_activity10_1" >
+        </activity>
     </application>
 
 </manifest>

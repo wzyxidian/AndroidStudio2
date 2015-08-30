@@ -28,12 +28,14 @@ public class MediaIndexActivity extends ActionBarActivity {
     private void buttonClickListener() {
          button101.setOnClickListener(buttonClickListener);
     }
+
     public class ButtonClickListeners implements View.OnClickListener{
         @Override
         public void onClick(View v) {
             switch(v.getId()){
                 case  R.id.button101:
-
+                    Intent intent01 = new Intent(MediaIndexActivity.this,Activity10_1.class);
+                    startActivity(intent01);
 
             }
         }
