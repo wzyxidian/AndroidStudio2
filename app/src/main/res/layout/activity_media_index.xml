@@ -18,7 +18,13 @@
                 android:layout_height="wrap_content"
                 android:id="@+id/button101"
                 android:textSize="24dp"
-                android:text="按钮"/>
+                android:text="Button101"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/button102"
+                android:textSize="24dp"
+                android:text="Button102"/>
         </LinearLayout>
     </ScrollView>
 

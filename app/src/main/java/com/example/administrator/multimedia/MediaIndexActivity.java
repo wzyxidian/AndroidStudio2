@@ -10,7 +10,7 @@ import com.example.administrator.androidstudio2.R;
 
 public class MediaIndexActivity extends ActionBarActivity {
     private ButtonClickListeners buttonClickListener;
-    private Button button101;
+    private Button button101,button102;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,11 +22,13 @@ public class MediaIndexActivity extends ActionBarActivity {
 
     private void init(){
         button101 = (Button) findViewById(R.id.button101);
+        button102 = (Button) findViewById(R.id.button102);
 
     }
 
     private void buttonClickListener() {
          button101.setOnClickListener(buttonClickListener);
+         button102.setOnClickListener(buttonClickListener);
     }
 
     public class ButtonClickListeners implements View.OnClickListener{
@@ -36,6 +38,9 @@ public class MediaIndexActivity extends ActionBarActivity {
                 case  R.id.button101:
                     Intent intent01 = new Intent(MediaIndexActivity.this,Activity10_1.class);
                     startActivity(intent01);
+                case  R.id.button102:
+                    Intent intent02 = new Intent(MediaIndexActivity.this,Activity10_2.class);
+                    startActivity(intent02);
 
             }
         }
