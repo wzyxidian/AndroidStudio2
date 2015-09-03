@@ -259,6 +259,10 @@
             android:name="com.example.administrator.multimedia.Activity10_3"
             android:label="@string/title_activity_activity10_3" >
         </activity>
+        <activity
+            android:name="com.example.administrator.multimedia.Activity10_4"
+            android:label="@string/title_activity_activity10_4" >
+        </activity>
     </application>
 
 </manifest>
