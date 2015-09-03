@@ -11,6 +11,7 @@ import com.example.administrator.androidstudio2.R;
 public class MediaIndexActivity extends ActionBarActivity {
     private ButtonClickListeners buttonClickListener;
     private Button button101,button102;
+    private Button button103;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -23,12 +24,14 @@ public class MediaIndexActivity extends ActionBarActivity {
     private void init(){
         button101 = (Button) findViewById(R.id.button101);
         button102 = (Button) findViewById(R.id.button102);
+        button103 = (Button) findViewById(R.id.button103);
 
     }
 
     private void buttonClickListener() {
          button101.setOnClickListener(buttonClickListener);
          button102.setOnClickListener(buttonClickListener);
+         button103.setOnClickListener(buttonClickListener);
     }
 
     public class ButtonClickListeners implements View.OnClickListener{
@@ -41,6 +44,9 @@ public class MediaIndexActivity extends ActionBarActivity {
                 case  R.id.button102:
                     Intent intent02 = new Intent(MediaIndexActivity.this,Activity10_2.class);
                     startActivity(intent02);
+                case  R.id.button103:
+                    Intent intent03 = new Intent(MediaIndexActivity.this,Activity10_3.class);
+                    startActivity(intent03);
 
             }
         }
